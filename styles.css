@@ -38,7 +38,7 @@ h3 {
     width: 300px;
     height: 300px;
     margin: 10px auto; /* Centers the image */
-    border: 2px solid rgb(19, 102, 180); /* Border around images */
+    border: 2px solid seagreen; /* Border around images */
     display: block;
 }
 
@@ -72,7 +72,7 @@ a {
     width: 150px;
     height: 200px;
     border-radius: 25%;
-    border: 2px solid rgb(126, 14, 201);
+    border: 2px solid seagreen;
     }
 
  .about p {
@@ -80,7 +80,7 @@ a {
     text-align: center;
     margin: auto;
     line-height: 125%;
-    color: rgb(19, 102, 180);
+    color: seagreen;
     }
 
 .skills p{
