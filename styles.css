@@ -37,10 +37,12 @@ h3 {
 }
 
 .project img {
-    width: 300px;
-    height: 250px;
-    margin: 10px auto; /* Centers the image */
-    border: 3px solid seagreen; /* Border around images */
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* keeps them from becoming too tall */
+    object-fit: contain;
+    margin: 10px auto;
+    border: 3px solid seagreen;
     border-radius: 5px;
     display: block;
 }
@@ -64,13 +66,6 @@ section, .about, .skills, .contact {
     width: 70%;
     margin: 0 auto 40px auto;
     text-align: center;
-    }
-
-.about img {
-    width: 150px;
-    height: 200px;
-    border-radius: 25%;
-    border: 2px solid seagreen;
     }
 
  .about p {
