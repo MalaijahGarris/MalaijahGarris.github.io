@@ -37,14 +37,12 @@ h3 {
 }
 
 .project img {
-    width: 100%;
-    height: auto;   /* override any inherited height */
-    object-fit: contain;
-    aspect-ratio: auto;  /* removes forced stretching */
+    width: 400px;
+    height: 300px;
     margin: 10px auto;
-    border: 3px solid seagreen;
-    border-radius: 5px;
-    display: block;
+    border: 2px solid lightblue;
+    display: block;  /* center the images inside the blobs */
+    text-align: center;
 }
 
 .project a {
