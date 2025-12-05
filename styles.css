@@ -38,9 +38,9 @@ h3 {
 
 .project img {
     width: 100%;
-    height: auto;
-    max-height: 250px; /* keeps them from becoming too tall */
+    height: auto;   /* override any inherited height */
     object-fit: contain;
+    aspect-ratio: auto;  /* removes forced stretching */
     margin: 10px auto;
     border: 3px solid seagreen;
     border-radius: 5px;
