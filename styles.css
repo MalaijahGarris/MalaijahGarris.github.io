@@ -6,13 +6,13 @@ body {
 
 h1 {
     color:seagreen;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 h2 {
     color:seagreen;
-    font-family: "Papyrus", monospace;
-    margin-bottom: 20px; /* Adds space below h2 */
+    margin-left: 20px;
 }
 
 h3 {
@@ -23,14 +23,16 @@ h3 {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
 }
 
 .project {
-    width: 35%; /* Adjusted width for better spacing */
+    width: 320px; /* Adjusted width for better spacing */
     padding: 20px;
     background: lightblue; /* Background color */
-    border-radius: 25%; 
+    border-radius: 50px; 
     text-align: center;
 }
 
@@ -49,23 +51,19 @@ h3 {
 }
 
 .project p {
-    text-align: center;
-    margin: 15px;
+    width: 90%;
+    margin: 10px auto 0 auto;
     color:seagreen;
 }
 
 section, .about, .skills, .contact {
-    margin: 40px; /* Adds space around each section */
-    padding: 10px;
-    border: 1px solid transparent; /* Prevents margin collapse */
+    margin-top: 40px; 
 }
 
 .about{
-    display:flex;
-    flex-wrap:wrap;
-    margin-right: 100px;
-    margin-left: 100px;
-    justify-content: center;
+    width: 70%;
+    margin: 0 auto 40px auto;
+    text-align: center;
     }
 
 .about img {
@@ -76,11 +74,8 @@ section, .about, .skills, .contact {
     }
 
  .about p {
-    width:50%;
-    text-align: center;
-    margin: auto;
-    line-height: 125%;
-    color: seagreen;
+    margin-top: 10px;
+    line-height: 140%;
     }
 
 .skills p{
